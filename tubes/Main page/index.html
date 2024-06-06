@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <div id="title" class="title">
+            <h2>E-Computer</h2>
+        </div>
+        <div id="navbar" class="navbar">
+            <a href="index.html">Home</a>
+            <a href="#AboutUs">About us</a>
+            <!-- <a href="#">Contac us</a> -->
+            <!-- <a href="#">Category</a> -->
+            <div class="dropdown">
+                <a href="#Category" class="Category">Category</a>
+                <!-- <div class="category-list">
+                    <ul class="content" id="content-list">
+                        <li>desktops</li>
+                        <li>laptops</li>
+                        <li>accessories</li>
+                        <li>components</li>
+                        <li>networking</li>
+                    </ul>
+                </div> -->
+            </div>
+            <a href="#">Contac us</a>
+            <!-- <div class="search">
+                <input type="search" id="search-input" placeholder="Masukan yang akan dicari">
+            </div>
+            <div class="cart">
+                <i class="fi fi-rr-shopping-cart"></i>
+            </div>
+        </div> -->
+    </nav>
+    <main>
+        <div class="slider">
+            <div class="slides">
+                <div class="slide">
+                    <img src="gambar/AMD.jpg" alt="Image 1">
+                    <div class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat libero eaque sequi quam ipsum aperiam asperiores fugit aut, accusantium tenetur voluptates vel dolore recusandae reprehenderit facere nobis molestias hic maxime.</div>
+                </div>
+                <div class="slide">
+                    <img src="gambar/VGA3.jpg" alt="Image 2">
+                    <div class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores maiores quisquam aperiam omnis aspernatur culpa? Nesciunt accusantium ex voluptatum quaerat consectetur fuga tempora ipsa, dolores inventore animi similique est sunt?</div>
+                </div>
+                <div class="slide">
+                    <img src="gambar/picture3.jpg" alt="Image 3">
+                    <div class="text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero sit illo, alias fugit similique ex autem impedit. Eius pariatur vero ex inventore veritatis nesciunt, error obcaecati delectus, fugiat ipsum est.</div>
+                </div>
+            </div>
+            <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+            <button class="next" onclick="moveSlide(1)">&#10095;</button>
+        </div>
+        <!-- <div class="view-product">
+            <div class="title-product">
+                <h1 class="title-content">PRODUCT</h1>
+            </div>
+            <div id="content">
+                //Content will be dynamically inserted here
+            </div>
+        </div> -->
+        <div class="container" id="Category">
+          <div class="title-category">
+            <div class="title-Container">
+              <h1 class="title-category-product">Category Product</h1>
+            </div>
+            <div #swiperRef="" class="swiper mySwiper">
+              <div class="swiper-wrapper card-container">
+                <div class="swiper-slide">
+                  <a href="#" class="card">
+                    <img src="Gambar-Category/VGA.jpg" alt="VGA">
+                    <h3>VGA</h3>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#" class="card">
+                    <img src="Gambar-Category/Monitor.jpg" alt="Monitor">
+                    <h3>Graphic Card</h3>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#" class="card">
+                    <img src="Gambar-Category/RAM.jpg" alt="RAM">
+                    <h3>Case</h3>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#" class="card">
+                    <img src="Gambar-Category/HDD.jpg" alt="HDD">
+                    <h3>Fan Cooler</h3>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#" class="card">
+                    <img src="Gambar-Category/SSD2.jpg" alt="SSD">
+                    <h3>DRAM</h3>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#" class="card">
+                    <img src="Gambar-Category/SSD2.jpg" alt="SSD">
+                    <h3>CPU Cooler</h3>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#" class="card">
+                    <img src="Gambar-Category/SSD2.jpg" alt="SSD">
+                    <h3>Air Cooler</h3>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#" class="card">
+                    <img src="Gambar-Category/SSD2.jpg" alt="SSD">
+                    <h3>Power Supply</h3>
+                  </a>
+                </div>
+              </div>
+              <!-- Add Arrows -->
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+            </div>
+          </div>
+        </div>
+          <!-- ABOUT US -->
+          <div class="container" id="AboutUs">
+            <div class="container-AboutUs">
+            <div class="title-Container">
+              <h1 class="title-us">About Us</h1>
+            </div>
+            <div class="container-person">
+              <div class="card-person">
+                <img class="gambar" src="images/jrew.jpeg" alt="Jarwo">
+                <div class="intro">
+                  <h1 class="heading">Jarwo</h1>
+                  <p class="paragrap">2350081064</p>
+                </div>
+              </div>
+              <div class="card-person">
+                <img class="gambar" src="images/haerul.jpeg" alt="Haerul">
+                <div class="intro">
+                  <h1 class="heading">Haerul</h1>
+                  <p class="paragrap">2350081089</p>
+                </div>
+              </div>
+              <div class="card-person">
+                <img class="gambar" src="images/aji.jpeg" alt="Aji">
+                <div class="intro">
+                  <h1 class="heading">Aji</h1>
+                  <p class="paragrap">2350081062</p>
+                </div>
+              </div>
+              <div class="card-person">
+                <img class="gambar" src="images/putra.jpeg" alt="Putra">
+                <div class="intro">
+                  <h1 class="heading">Putra</h1>
+                  <p class="paragrap">2350081087</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+          
+
+        <footer>
+          <section class="footer">
+            <div class="social">
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            </div>
+
+            <ul class="list">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Product</a></li>
+              <li><a href="#">About us</a></li>
+              <li><a href="">Contact US</a></li>
+            </ul>
+            <p class="copyright">E-Computer @ 2024</p>
+          </section>
+        </footer>
+    </main>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

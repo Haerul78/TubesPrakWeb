@@ -1,0 +1,62 @@
+[
+    {
+        "name": "Gaming Desktop",
+        "description": "High performance desktop for gaming.",
+        "image": "https://via.placeholder.com/150",
+        "category": "desktops"
+    },
+    {
+        "name": "Office Desktop",
+        "description": "Efficient desktop for office work.",
+        "image": "https://via.placeholder.com/150",
+        "category": "desktops"
+    },
+    {
+        "name": "Gaming Laptop",
+        "description": "Portable gaming powerhouse.",
+        "image": "https://via.placeholder.com/150",
+        "category": "laptops"
+    },
+    {
+        "name": "Ultrabook",
+        "description": "Lightweight and powerful for everyday tasks.",
+        "image": "https://via.placeholder.com/150",
+        "category": "laptops"
+    },
+    {
+        "name": "Mechanical Keyboard",
+        "description": "High quality keyboard for gaming and typing.",
+        "image": "https://via.placeholder.com/150",
+        "category": "accessories"
+    },
+    {
+        "name": "Gaming Mouse",
+        "description": "Precision mouse for gamers.",
+        "image": "https://via.placeholder.com/150",
+        "category": "accessories"
+    },
+    {
+        "name": "Graphics Card",
+        "description": "High performance graphics card.",
+        "image": "https://via.placeholder.com/150",
+        "category": "components"
+    },
+    {
+        "name": "Motherboard",
+        "description": "Reliable motherboard for your PC build.",
+        "image": "https://via.placeholder.com/150",
+        "category": "components"
+    },
+    {
+        "name": "Router",
+        "description": "Fast and reliable wireless router.",
+        "image": "https://via.placeholder.com/150",
+        "category": "networking"
+    },
+    {
+        "name": "Network Switch",
+        "description": "Efficient network switch for your home or office.",
+        "image": "https://via.placeholder.com/150",
+        "category": "networking"
+    }
+]
